@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+project(cg_consumer LANGUAGES CXX)
+find_package(ContentionGovernor CONFIG REQUIRED)
+add_executable(cg_consumer main.cpp)
+target_link_libraries(cg_consumer PRIVATE ContentionGovernor::ContentionGovernor)

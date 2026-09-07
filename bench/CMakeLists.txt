@@ -1,0 +1,2 @@
+add_executable(contention_bench main.cpp)
+target_link_libraries(contention_bench PRIVATE ContentionGovernor::ContentionGovernor)
