@@ -63,7 +63,7 @@ execution mechanics, memory compaction, fragmentation remediation, recovery
 execution, device partitioning, NVLink/NVSwitch routing, or hardware power
 control.
 
-**Interference Observatory** is the previous layer. It owns OBSERVE, MEASURE,
+**[Interference Observatory](https://github.com/pngen/Interference-Observatory)** is the previous layer. It owns OBSERVE, MEASURE,
 COMPARE, ATTRIBUTE, and EXPLAIN cross-workload interference. Contention Governor
 consumes authoritative Interference-Observatory-compatible evidence and decides
 what corrective action is legal and preferable. It does not rebuild the
